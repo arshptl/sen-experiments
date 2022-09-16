@@ -1,0 +1,35 @@
+.progressContinerStyle {
+  background: #f8bbd0;
+  box-shadow: "0 2px 4px rgba(0; 0; 0; 0.3)";
+  height: 5px;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 99;
+  position: fixed;
+}
+
+.progressBarStyle {
+  height: 5px;
+  background: #e91e63;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+#bg {
+  height: 100%;
+  width: 100%;
+  color: black;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
