@@ -11,6 +11,9 @@
     place-items: center;
     align-content: center;
     min-height: 100vh;
+    /* padding: 2em; */
+    margin-bottom: 1em;
+    background-color: red;
 }
 
 .hidden{

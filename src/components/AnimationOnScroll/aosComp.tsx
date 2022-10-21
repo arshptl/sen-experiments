@@ -14,10 +14,10 @@ const AosComp = () => {
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
-                // console.log(entry.isIntersecting);
+                console.log(entry);
                 if (entry.isIntersecting) {
                     // console.log(`%c Current entry for ${entry.target.id} : ${entry}`, 'background: #320c0c; color: #e21313');
-                    // console.log(`%c Intersectiong id: ${entry.target.id}`, 'background: #320c0c; color: #bada55');
+                    console.log(`%c Intersectiong id: ${entry.target.id}`, 'background: #320c0c; color: #bada55');
                     entry.target.classList.add(`${classes.show}`);
                 }
                 else {
